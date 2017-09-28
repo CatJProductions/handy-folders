@@ -3,11 +3,11 @@ body {
   margin: 0px;
 }
 #indexhtml {
-  background-color: darkslateblue;
+  background-color: darkslategray;
 }
 h1 {
   font-size: 40px;
-  font-family: crimson-text, serif;
+  font-family: oswald, serif;
 }
 h2 {
   text-align: center;
@@ -27,7 +27,7 @@ img, iframe {
   margin: 0px;
 }
 #home {
-  background-image: url("http://www.qygjxz.com/data/out/35/5325929-book-image.png");
+  background-image: url("https://i.ytimg.com/vi/_fVT75SDoq0/maxresdefault.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
