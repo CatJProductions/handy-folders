@@ -1,5 +1,8 @@
+
 body {
   margin: 0px;
+}
+#indexhtml {
   background-color: darkslateblue;
 }
 h1 {
@@ -19,6 +22,29 @@ img, iframe {
   margin: auto;
   border: 2px solid royalblue;
 }
+#index {
+  background-color: darkslateblue;
+  margin: 0px;
+}
+#home {
+  background-image: url("http://www.qygjxz.com/data/out/35/5325929-book-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  padding: 20px;
+  height: 500px;
+  padding-top: 60px;
+}
+#begin {
+  font-family: 'Oswald';
+  color: white;
+  width: 800px;
+  margin: 0 auto;
+}
+#begin a {
+  color: black;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -36,7 +62,6 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  top: 0px;
 }
 ul li a:hover {
   background-color: #111;
