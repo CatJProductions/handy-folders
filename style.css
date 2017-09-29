@@ -2,7 +2,7 @@
 body {
   margin: 0px;
 }
-#indexhtml, #origamihtml {
+#indexhtml, #origamihtml, #sewinghtml {
   background-color: darkslategray;
 }
 h1 {
@@ -27,7 +27,7 @@ img, iframe {
   margin: auto;
   border: 2px solid royalblue;
 }
-#index, #origami {
+#index, #origami, #sewing {
   background-color: darkslategray;
   margin: 0px;
 }
@@ -43,6 +43,16 @@ img, iframe {
 }
 #origamihome {
   background-image: url("https://i.ytimg.com/vi/FTrTUjwG6r4/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 100%;
+  padding: 20px;
+  height: 500px;
+  padding-top: 60px;
+}
+#sewinghome {
+  background-image: url("https://i.ytimg.com/vi/GEy87p7SfgY/maxresdefault.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
