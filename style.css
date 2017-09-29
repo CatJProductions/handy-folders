@@ -12,10 +12,14 @@ h1 {
 h2 {
   text-align: center;
   font-size: 40px;
+  color: royalblue;
 }
 h3 {
   text-align: center;
   font-size: 30px;
+}
+p {
+  color: white;
 }
 img, iframe {
   display: block;
@@ -38,7 +42,6 @@ img, iframe {
 }
 #begin {
   font-family: 'Oswald';
-  color: white;
   width: 800px;
   margin: 0 auto;
 }
