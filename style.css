@@ -26,12 +26,22 @@ img, iframe {
   margin: auto;
   border: 2px solid royalblue;
 }
-#index {
+#index, #origami {
   background-color: darkslategray;
   margin: 0px;
 }
 #home {
   background-image: url("https://i.ytimg.com/vi/_fVT75SDoq0/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 100%;
+  padding: 20px;
+  height: 500px;
+  padding-top: 60px;
+}
+#origamihome {
+  background-image: url("https://i.ytimg.com/vi/FTrTUjwG6r4/maxresdefault.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
