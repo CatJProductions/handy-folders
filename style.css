@@ -2,7 +2,7 @@
 body {
   margin: 0px;
 }
-#indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml {
+#indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml, #eventshtml {
   background-color: darkslategray;
 }
 h1 {
@@ -27,7 +27,7 @@ img, iframe {
   margin: auto;
   border: 2px solid royalblue;
 }
-#index, #origami, #sewing #drawing, #about {
+#index, #origami, #sewing, #drawing, #about, #events {
   background-color: darkslategray;
   margin: 0px;
 }
@@ -73,6 +73,16 @@ img, iframe {
 }
 #abouthome {
   background-image: url("https://i.ytimg.com/vi/4jYOOk-cJj0/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 100%;
+  padding: 20px;
+  height: 500px;
+  padding-top: 60px;
+}
+#eventshome {
+  background-image: url("https://i.ytimg.com/vi/OrPUcQFD2sA/maxresdefault.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
