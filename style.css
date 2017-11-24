@@ -3,7 +3,7 @@ body {
   margin: 0px;
 }
 #indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml, #eventshtml {
-  background-color: darkseagreen;
+  background-color: yellowgreen;
 }
 h1 {
   font-size: 40px;
@@ -28,7 +28,7 @@ img, iframe {
   border: 2px solid royalblue;
 }
 #index, #origami, #sewing, #drawing, #about, #events {
-  background-color: darkseagreen;
+  background-color: yellowgreen;
   margin: 0px;
 }
 #home {
