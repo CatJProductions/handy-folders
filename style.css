@@ -3,11 +3,11 @@ body {
   margin: 0px;
 }
 #indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml, #eventshtml {
-  background-color: yellowgreen;
+  background-color: seagreen;
 }
 h1 {
   font-size: 40px;
-  font-family: oswald, serif;
+  font-family: verdana, serif;
 }
 h2 {
   text-align: center;
@@ -20,7 +20,7 @@ h3 {
   color: limegreen;
 }
 p {
-  color: white;
+  color: seashell;
 }
 img, iframe {
   display: block;
@@ -28,11 +28,12 @@ img, iframe {
   border: 2px solid royalblue;
 }
 #index, #origami, #sewing, #drawing, #about, #events {
-  background-color: yellowgreen;
+  background-color: seagreen;
   margin: 0px;
 }
 #home {
-  background-image: url("https://i.ytimg.com/vi/_fVT75SDoq0/maxresdefault.jpg");
+  background-image: url("http://images.all-free-download.com/images/graphiclarge/holiday_background_310554.jpg");
+  /*background-image: url("https://i.ytimg.com/vi/_fVT75SDoq0/maxresdefault.jpg");*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
