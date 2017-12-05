@@ -97,7 +97,7 @@ img, iframe {
   padding-top: 60px;
 }
 #gameshome {
-  background-image: url("http://i.kinja-img.com/gawker-media/image/upload/s--SPz2CDQV--/sxicodldkbdj6tt2cz1u.jpg");
+  background-color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
@@ -139,4 +139,5 @@ ul li a:hover {
 }
 .active {
   background-color: #4CAF50;
+  color: white;
 }
