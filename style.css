@@ -5,6 +5,9 @@ body {
 #indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml, #eventshtml {
   background-color: seagreen;
 }
+#gameshtml {
+  background-color: black;
+}
 h1 {
   font-size: 40px;
   font-family: verdana, serif;
@@ -85,6 +88,16 @@ img, iframe {
 }
 #eventshome {
   background-image: url("https://i.ytimg.com/vi/OrPUcQFD2sA/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 100%;
+  padding: 20px;
+  height: 500px;
+  padding-top: 60px;
+}
+#gameshome {
+  background-image: url("http://i.kinja-img.com/gawker-media/image/upload/s--SPz2CDQV--/sxicodldkbdj6tt2cz1u.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
