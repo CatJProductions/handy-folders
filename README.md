@@ -1,1 +1,1 @@
-# handyfolders.github.io
+# handy-folders.github.io
