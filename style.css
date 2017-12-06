@@ -6,7 +6,7 @@ body {
   background-color: seagreen;
 }
 #gameshtml {
-  background-color: black;
+  background-color: lightseagreen;
 }
 h1 {
   font-size: 40px;
@@ -20,7 +20,7 @@ h2 {
 h3 {
   text-align: center;
   font-size: 30px;
-  color: limegreen;
+  color: greenyellow;
 }
 p {
   color: seashell;
@@ -97,7 +97,7 @@ img, iframe {
   padding-top: 60px;
 }
 #gameshome {
-  background-color: white;
+  background-image: url("https://www.wikihow.com/images/thumb/0/07/Make-an-Origami-Flapping-Bird-Step-12-preview.jpg/550px-Make-an-Origami-Flapping-Bird-Step-12-preview.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
