@@ -1,6 +1,11 @@
 
 body {
   margin: 0px;
+  text-align: center;
+}
+canvas {
+  border: 2px groove rgb(161, 149, 149);
+  padding: 10px;
 }
 #indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml, #eventshtml {
   background-color: seagreen;
