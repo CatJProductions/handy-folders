@@ -27,7 +27,7 @@
   <hr>
   </div>
   <div id="begin">
-    
+    <!--
     <p>The developers of the Handy Folders website have made some games from Scratch! Here you can see them. Make sure you can run flash, and follow any instructions to get it if flash is unaccessable.</p>
     <h2>Games</h2>
     <h3>Hungry Ghost</h3>
@@ -46,6 +46,24 @@
     <h3>Bug Maze</h3>
     <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/183479944/?autostart=false" frameborder="0" allowfullscreen=""></iframe>
     <p>Author: Joshua</p>
+    -->
+    <div id="game1">
+    <button id="clicker">Hungry Ghost</button>
+    </div>
+      
+    <script>
+      var clickerButton = document.getElementById("clicker");
+      var link = "//scratch.mit.edu/projects/embed/181903690/?autostart=false";
+      var onButtonClick = function() {
+        var game1 = document.createElement("IFRAME");
+        iframe.frameBorder=0;
+        iframe.setAttribute("src", link);
+        document.getElementById("game1").appendChild(iframe);
+        $("button").remove("#clicker");
+      };
+      clickerButton.addEventListener("click", onButtonClick);
+      
+    </script>
     
   </div>
     
