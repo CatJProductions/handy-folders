@@ -56,8 +56,8 @@
       var link = "//scratch.mit.edu/projects/embed/181903690/?autostart=false";
       var onButtonClick = function() {
         var game1 = document.createElement("IFRAME");
-        iframe.frameBorder=0;
-        iframe.setAttribute("src", link);
+        game1.frameBorder=0;
+        game1.setAttribute("src", link);
         document.getElementById("game1").appendChild(iframe);
         $("button").remove("#clicker");
       };
