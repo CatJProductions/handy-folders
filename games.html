@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" id="gameshtml">
+<html lang="en" id="snakehtml">
 
 <head>
   <title>Handy Folders | Developer Games</title>
@@ -8,7 +8,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <div id="games">
+  <div id="snake">
   
   <script src ="https://code.jquery.com/jquery-2.1.0.js"></script>
     
@@ -19,10 +19,19 @@
     <li><a href="drawing.html">Drawing</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="events.html">Events</a></li>
-    <li><a class="active" href="games.html">Snake</a></li>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="snake.html">Snake</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div> 
   </ul>
   
-  <div id="gameshome">
+  <div id="snakehome">
   <h1>Handy Folders<br>Games from the Developers</h1>
   <hr>
   </div>
