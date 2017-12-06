@@ -47,8 +47,10 @@
     <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/183479944/?autostart=false" frameborder="0" allowfullscreen=""></iframe>
     <p>Author: Joshua</p>
     -->
-    
+    <h3>Snake Game</h3>
+    <p>Instructions:<br>Use the arrow keys to move and collect the apple. Don't hit the edge! Hold shift while playing to make sure the page doesn't move when you are pointing the snake upwards or downwards.</p>
     <canvas id="stage" height="400" width="520"></canvas>
+    <hr>
       
     <script>
     /**
@@ -181,7 +183,7 @@
         }
 
         // Draw White Stage
-        context.fillStyle = "white";
+        context.fillStyle = "darkseagreen";
         context.fillRect(0, 0, snake.stage.width, snake.stage.height);
 
         // Snake Position
@@ -237,7 +239,7 @@
 
       // Draw Cell
       this.drawCell = function(x, y) {
-        context.fillStyle = 'rgb(170, 170, 170)';
+        context.fillStyle = 'seashell';
         context.beginPath();
         context.arc((x * snake.stage.conf.cw + 6), (y * snake.stage.conf.cw + 6), 4, 0, 2*Math.PI, false);    
         context.fill();
