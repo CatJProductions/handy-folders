@@ -10,10 +10,10 @@ canvas {
 #indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml, #eventshtml {
   background-color: seagreen;
 }
-#snakehtml {
+#snakehtml, #rabbithtml {
   background-color: mediumseagreen;
 }
-#snake {
+#snake, #rabbit {
   background-color: mediumseagreen;
 }
 h1 {
@@ -106,6 +106,16 @@ img, iframe {
 }
 #snakehome {
   background-image: url("https://i.ytimg.com/vi/wPFBD14Pa4E/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 100%;
+  padding: 20px;
+  height: 500px;
+  padding-top: 60px;
+}
+#rabbithome {
+  background-image: url("http://1.bp.blogspot.com/-eMCD-exeZNI/VVteXY99XhI/AAAAAAAADEc/DbBJb6d1cHE/s1600/Fluffy-2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
