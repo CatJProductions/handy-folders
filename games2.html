@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" id="rabbithtml">
+
+<head>
+  <title>Handy Folders | Developer Games- Snake</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <div id="rabbit">
+  
+  <script src ="https://code.jquery.com/jquery-2.1.0.js"></script>
+    
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="origami.html">Origami</a></li>
+    <li><a href="sewing.html">Sewing</a></li>
+    <li><a href="drawing.html">Drawing</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="events.html">Events</a></li>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Games
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="games.html">Snake</a>
+        <a href="games2.html">Rabbit</a>
+        <a href="home.html">Coming Soon</a>
+      </div>
+    </div> 
+  </ul>
+    
+  <script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+    }
+  }
+  </script>
+    
+  <div id="rabbithome">
+  <h1>Handy Folders<br>Rabbit Game</h1>
+  <hr>
+  </div>
+  <div id="begin">
+    <p>This is a rabbit game from <a href="www.cloudgames.com/portfolio">Cloud Games</a>.</p>
+    <h3>Rabbit Game</h3>
+    <iframe src="https://cloudgames.com/games/html5/greedy-rabbit-new-en-s-iga-cloud/index.html?pub=10" name="cloudgames-com" width="900" height="600" frameborder="0" scrolling="no"></iframe>
+    <hr>
+  </div>
+    
+  <script src="js/scripts.js"></script>
+</div>
+</body>
+</html>
