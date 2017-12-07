@@ -36,8 +36,8 @@ p {
 }
 img, iframe {
   display: block;
-  margin: auto;
-  border: 2px solid royalblue;
+  margin: 50px auto;
+  border: 2px solid seagreen;
 }
 #index, #origami, #sewing, #drawing, #about, #events {
   background-color: seagreen;
