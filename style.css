@@ -44,7 +44,7 @@ img, iframe {
   margin: 0px;
 }
 #home {
-  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/14/64/015665307c09a0d.jpg");
+  background-image: url("http://www.freebiesgallery.com/wp-content/uploads/2012/12/christmas-backgrounds-25.jpg");
   /*background-image: url("https://i.ytimg.com/vi/_fVT75SDoq0/maxresdefault.jpg");*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -105,7 +105,7 @@ img, iframe {
   padding-top: 60px;
 }
 #snakehome {
-  background-image: url("http://www.giladorigami.com/P_Chipmunk_Kyouhei_Graceful.jpg");
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/59/47/c4/5947c475584bb01ae6023e2ac6a18684.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
@@ -162,6 +162,7 @@ ul li a:hover {
     color: white;
     padding: 14px 16px;
     background-color: inherit;
+    font-family: oswald;
 }
 
 .dropdown:hover .dropbtn {
