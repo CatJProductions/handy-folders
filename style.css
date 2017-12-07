@@ -10,7 +10,10 @@ canvas {
 #indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml, #eventshtml {
   background-color: seagreen;
 }
-#gameshtml {
+#snakehtml {
+  background-color: lightseagreen;
+}
+#snake {
   background-color: lightseagreen;
 }
 h1 {
@@ -20,7 +23,7 @@ h1 {
 h2 {
   text-align: center;
   font-size: 40px;
-  color: royalblue;
+  color: seashell;
 }
 h3 {
   text-align: center;
@@ -41,7 +44,7 @@ img, iframe {
   margin: 0px;
 }
 #home {
-  background-image: url("http://images.all-free-download.com/images/graphiclarge/holiday_background_310554.jpg");
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/14/64/015665307c09a0d.jpg");
   /*background-image: url("https://i.ytimg.com/vi/_fVT75SDoq0/maxresdefault.jpg");*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -101,7 +104,7 @@ img, iframe {
   height: 500px;
   padding-top: 60px;
 }
-#gameshome {
+#snakehome {
   background-image: url("http://www.giladorigami.com/P_Chipmunk_Kyouhei_Graceful.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
