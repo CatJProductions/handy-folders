@@ -185,6 +185,7 @@ ul li a:hover {
     text-decoration: none;
     display: block;
     text-align: left;
+    font-family: oswald;
 }
 
 .dropdown-content a:hover {
