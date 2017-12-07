@@ -23,7 +23,7 @@ h1 {
 h2 {
   text-align: center;
   font-size: 40px;
-  color: seashell;
+  color: red;
 }
 h3 {
   text-align: center;
@@ -143,7 +143,7 @@ ul li a {
   font-family: oswald, serif;
 }
 ul li a:hover {
-  background-color: red;
+  background-color: #111;
 }
 .active {
   background-color: #4CAF50;
@@ -166,7 +166,7 @@ ul li a:hover {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #111;
 }
 
 .dropdown-content {
