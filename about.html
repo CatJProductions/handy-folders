@@ -17,10 +17,37 @@
     <li><a href="origami.html">Origami</a></li>
     <li><a href="sewing.html">Sewing</a></li>
     <li><a href="drawing.html">Drawing</a></li>
-    <li><a class="active" href="about.html">About</a></li>
+    <li><a href="about.html">About</a></li>
     <li><a href="events.html">Events</a></li>
-    <li><a href="games.html">Games</a></li>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Games
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="games.html">Snake</a>
+        <a href="home.html">Coming Soon</a>
+        <a href="home.html">Coming Soon</a>
+      </div>
+    </div> 
   </ul>
+    
+  <script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+    }
+  }
+  </script>
   
   <div id="abouthome">
   <h1>Handy Folders | About</h1>
