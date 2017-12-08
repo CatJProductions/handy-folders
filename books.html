@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" id="bookshtml">
+
+<head>
+  <title>Handy Folders | Books</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <div id="bookshome">
+  
+  <script src ="https://code.jquery.com/jquery-2.1.0.js"></script>
+    
+    <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="origami.html">Origami</a></li>
+    <li><a href="sewing.html">Sewing</a></li>
+    <li><a href="drawing.html">Drawing</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="books.html">Books</a></li>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Games
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="games.html">Snake</a>
+        <a href="games2.html">Rabbit</a>
+        <a href="home.html">Coming Soon</a>
+      </div>
+    </div> 
+  </ul>
+    
+  <script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+    }
+  }
+  </script>
+  
+  <div id="home">
+  <h1>Handy Folders<br>Happy Holidays!</h1>
+  <hr>
+  </div>
+  <div id="books">
+  
+  <p>Handy Folders' employees are bookworms, and here you can find their favorite books, and the book of the month!</p>
+  <span class="spaceheader"><h2>Book of December</h2></span>
+  <h3>Space Case, by Stuart Gibbs</h3>
+  <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390612337i/17571237._UY475_SS475_.jpg">
+  <p>December's book of the month is Space Case, by Stuart Gibbs.</p>
+  <p>A twelve-year-old named Dash Gibson lives on the first colony on the moon, but it isn't as splendid as it may seem. Things get worse when a scientist mysteriously dies, and Dash is suspicious of what happened.</p>
+  <h3>Statistics</h3>
+  <ol>
+    <li>Year of release: 2014</li>
+    <li>Pages: 337</li>
+    <li>Author: Stuart Gibbs</li>
+  </ol>
+  <p>The CEO is reading this book right now!</p>
+  <p>It is recommended, and Stuart Gibbs is an excellent author whose books you should look into.</p>
+    
+  </div>
+    
+  <script src="js/scripts.js"></script>
+</div>
+</body>
+</html>
