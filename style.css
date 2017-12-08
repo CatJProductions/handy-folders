@@ -30,6 +30,9 @@ h3 {
   font-size: 30px;
   color: greenyellow;
 }
+h3:hover {
+  color: darkgreen;
+}
 p {
   color: seashell;
   font-family: verdana, serif;
