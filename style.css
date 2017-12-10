@@ -7,7 +7,7 @@ canvas {
   border: 2px groove rgb(161, 149, 149);
   margin: 50px;
 }
-#indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml, #eventshtml {
+#indexhtml, #origamihtml, #sewinghtml, #drawinghtml, #abouthtml, #eventshtml, #bookshtml {
   background-color: seagreen;
 }
 #snakehtml, #rabbithtml {
@@ -42,7 +42,7 @@ img, iframe {
   margin: 50px auto;
   border: 2px solid lightseagreen;
 }
-#index, #origami, #sewing, #drawing, #about, #events {
+#index, #origami, #sewing, #drawing, #about, #events, #books {
   background-color: seagreen;
   margin: 0px;
 }
@@ -119,6 +119,16 @@ img, iframe {
 }
 #rabbithome {
   background-image: url("http://1.bp.blogspot.com/-eMCD-exeZNI/VVteXY99XhI/AAAAAAAADEc/DbBJb6d1cHE/s1600/Fluffy-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: 100%;
+  padding: 20px;
+  height: 500px;
+  padding-top: 60px;
+}
+#bookshome {
+  background-image: url("http://www.qygjxz.com/data/out/35/5325929-book-image.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
