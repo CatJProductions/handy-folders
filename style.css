@@ -47,8 +47,7 @@ img, iframe {
   margin: 0px;
 }
 #home {
-  background-image: url("http://www.freebiesgallery.com/wp-content/uploads/2012/12/christmas-backgrounds-25.jpg");
-  /*background-image: url("https://i.ytimg.com/vi/_fVT75SDoq0/maxresdefault.jpg");*/
+  background-image: url("https://i.ytimg.com/vi/_fVT75SDoq0/maxresdefault.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
